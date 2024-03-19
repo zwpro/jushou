@@ -1,6 +1,6 @@
 ### 短剧搜索
 
-uniapp一键安装：https://github.com/zwpro/redCover
+uniapp一键安装：https://ext.dcloud.net.cn/plugin?id=17094
 
 ### 更新日志 1.0
 
@@ -9,7 +9,7 @@ uniapp一键安装：https://github.com/zwpro/redCover
 
 ### 使用方法
 
-源码为uniapp项目，需下载hbuilder导入项目打包，可编译成小程序或h5[一键安装](http://lianghua.wxthe.com/docs/)
+源码为uniapp项目，需下载hbuilder导入项目打包，可编译成小程序或h5[一键安装](https://ext.dcloud.net.cn/plugin?id=17094)
 
 
 ### 常见问题

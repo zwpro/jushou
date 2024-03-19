@@ -2,7 +2,7 @@
 	<view class="wrapper">
 		<view class="logo">
 			<image src="/static/icon/logo.png" mode="" class="logo-img"></image>
-			剧搜
+			{{name}}
 		</view>
 		<view class="search">
 			<input type="text" v-model="keyword" :class="['search-input', focus ? 'focus' : '']" placeholder="输入剧名~" confirm-type="search" @click="searchFocus" @focus="searchFocus" @blur="searchBlur" @confirm="search" />
@@ -52,9 +52,11 @@
 		mapActions,
 		mapGetters
 	} from 'vuex';
+	import env from '@/.env.js'
 	export default {
 		data() {
 			return {
+				name: '',
 				focus: false,
 				keyword: '',
 				ranks: [],
@@ -73,6 +75,7 @@
 			},
 		},
 		onLoad(e) {
+			this.name = env[process.env.NODE_ENV].name
 			if (e.path) {
 				this.jumpTo(e.path);
 			}

@@ -3,7 +3,7 @@
  * 基于 Promise 对象实现更简单的 request 使用方式，支持请求和响应拦截
  */
 import store from '@/store'
-import env from '@/.env.js'
+import env from '@/env.js'
 /*
 // 开放的接口
 import http from './interface'
